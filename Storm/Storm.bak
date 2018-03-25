@@ -1,0 +1,262 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Storm-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Stroom - Shield Franzininho  "
+Date "2018-02-27"
+Rev "1.0"
+Comp "Comunidade Franzininho"
+Comment1 "https://github.com/Franzininho"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LED D4
+U 1 1 5A95EBFE
+P 7595 5625
+F 0 "D4" H 7595 5725 50  0000 C CNN
+F 1 "LED" H 7595 5525 50  0000 C CNN
+F 2 "LEDs:LED_D3.0mm" H 7595 5625 50  0001 C CNN
+F 3 "" H 7595 5625 50  0001 C CNN
+	1    7595 5625
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D3
+U 1 1 5A95ED7A
+P 7880 5630
+F 0 "D3" H 7880 5730 50  0000 C CNN
+F 1 "LED" H 7880 5530 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 7880 5630 50  0001 C CNN
+F 3 "" H 7880 5630 50  0001 C CNN
+	1    7880 5630
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D2
+U 1 1 5A95EEEF
+P 8165 5630
+F 0 "D2" H 8165 5730 50  0000 C CNN
+F 1 "LED" H 8165 5530 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 8165 5630 50  0001 C CNN
+F 3 "" H 8165 5630 50  0001 C CNN
+	1    8165 5630
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D1
+U 1 1 5A95EFB2
+P 8425 5630
+F 0 "D1" H 8425 5730 50  0000 C CNN
+F 1 "LED" H 8425 5530 50  0000 C CNN
+F 2 "LEDs:LED_D3.0mm" H 8425 5630 50  0001 C CNN
+F 3 "" H 8425 5630 50  0001 C CNN
+	1    8425 5630
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R4
+U 1 1 5A95F323
+P 7595 5220
+F 0 "R4" V 7675 5220 50  0000 C CNN
+F 1 "R" V 7595 5220 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7525 5220 50  0001 C CNN
+F 3 "" H 7595 5220 50  0001 C CNN
+	1    7595 5220
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 5A95F4FA
+P 7880 5220
+F 0 "R3" V 7960 5220 50  0000 C CNN
+F 1 "R" V 7880 5220 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7810 5220 50  0001 C CNN
+F 3 "" H 7880 5220 50  0001 C CNN
+	1    7880 5220
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 5A95F595
+P 8165 5220
+F 0 "R2" V 8245 5220 50  0000 C CNN
+F 1 "R" V 8165 5220 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8095 5220 50  0001 C CNN
+F 3 "" H 8165 5220 50  0001 C CNN
+	1    8165 5220
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 5A95F655
+P 8425 5220
+F 0 "R1" V 8505 5220 50  0000 C CNN
+F 1 "R" V 8425 5220 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8355 5220 50  0001 C CNN
+F 3 "" H 8425 5220 50  0001 C CNN
+	1    8425 5220
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x08 J1
+U 1 1 5A95FD8A
+P 9630 5205
+F 0 "J1" H 9630 5605 50  0000 C CNN
+F 1 "Conn_01x08" H 9630 4705 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x08_Pitch2.54mm" H 9630 5205 50  0001 C CNN
+F 3 "" H 9630 5205 50  0001 C CNN
+	1    9630 5205
+	1    0    0    1   
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 5A960A3F
+P 8165 6080
+F 0 "#PWR01" H 8165 5830 50  0001 C CNN
+F 1 "GND" H 8165 5930 50  0000 C CNN
+F 2 "" H 8165 6080 50  0001 C CNN
+F 3 "" H 8165 6080 50  0001 C CNN
+	1    8165 6080
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 5A961317
+P 9145 4780
+F 0 "#PWR02" H 9145 4530 50  0001 C CNN
+F 1 "GND" H 9145 4630 50  0000 C CNN
+F 2 "" H 9145 4780 50  0001 C CNN
+F 3 "" H 9145 4780 50  0001 C CNN
+	1    9145 4780
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push SW1
+U 1 1 5A95FF10
+P 8945 5595
+F 0 "SW1" H 8995 5695 50  0000 L CNN
+F 1 "SW_Push" H 8945 5535 50  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_PUSH_6mm" H 8945 5795 50  0001 C CNN
+F 3 "" H 8945 5795 50  0001 C CNN
+	1    8945 5595
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7595 5370 7595 5475
+Wire Wire Line
+	7880 5370 7880 5480
+Wire Wire Line
+	8165 5370 8165 5480
+Wire Wire Line
+	8425 5370 8425 5480
+Wire Wire Line
+	9430 5405 9135 5405
+Wire Wire Line
+	9135 5405 9135 5315
+Wire Wire Line
+	9135 5315 8630 5315
+Wire Wire Line
+	8630 5315 8630 5020
+Wire Wire Line
+	8630 5020 8425 5020
+Wire Wire Line
+	8425 5020 8425 5070
+Wire Wire Line
+	9430 5305 9170 5305
+Wire Wire Line
+	9170 5305 9170 5270
+Wire Wire Line
+	9170 5270 8675 5270
+Wire Wire Line
+	8675 5270 8675 4990
+Wire Wire Line
+	8675 4990 8165 4990
+Wire Wire Line
+	8165 4990 8165 5070
+Wire Wire Line
+	9430 5205 8720 5205
+Wire Wire Line
+	8720 5205 8720 4950
+Wire Wire Line
+	8720 4950 7880 4950
+Wire Wire Line
+	7880 4950 7880 5070
+Wire Wire Line
+	9430 5005 8785 5005
+Wire Wire Line
+	8785 5005 8785 4905
+Wire Wire Line
+	8785 4905 7595 4905
+Wire Wire Line
+	7595 4905 7595 5070
+Wire Wire Line
+	7595 5775 7595 5985
+Wire Wire Line
+	7595 5985 8670 5985
+Wire Wire Line
+	7880 5780 7880 5985
+Connection ~ 7880 5985
+Connection ~ 8165 5985
+Wire Wire Line
+	8165 5780 8165 6080
+Wire Wire Line
+	8425 5780 8425 5985
+Connection ~ 8425 5985
+Wire Wire Line
+	9430 4805 9385 4805
+Wire Wire Line
+	9385 4805 9385 4725
+Wire Wire Line
+	9385 4725 9145 4725
+Wire Wire Line
+	9145 4725 9145 4780
+Wire Wire Line
+	9430 5505 9295 5505
+Wire Wire Line
+	9295 5505 9295 5595
+Wire Wire Line
+	9295 5595 9145 5595
+Wire Wire Line
+	8745 5595 8670 5595
+Wire Wire Line
+	8670 5595 8670 5985
+Text Notes 10205 6260 0    60   ~ 0
+Pinos:\n1 - PB0\n2 - PB1\n3 - PB2\n4 - PB3\n5 - PB5(RST)\n6 - PB4\n7 - VCC\n8 - GND
+$EndSCHEMATC
