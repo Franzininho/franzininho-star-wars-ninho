@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Darth)(type KiCad)(uri "$(KIPRJMOD)")(options "")(descr ""))
+)
