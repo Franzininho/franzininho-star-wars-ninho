@@ -1,7 +1,6 @@
 # franzininho-star-wars-ninho
-robô pisca com a temática Star Wars idealizado pelo professor Isídro
+Robô pisca com a temática Star Wars idealizado pelo [Professor Isidro](https://github.com/professorisidro).
 
-As placas foram desenvolvidas usando Kicad 4.0.7
+As placas foram desenvolvidas usando Kicad 4.0.
 
-
-A Pinagem dos shields são compatíveis apenas com Franzininho.
+A Pinagem dos shields são compatíveis apenas com [Franzininho](http://github.com/franzininho).
